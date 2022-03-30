@@ -1,7 +1,7 @@
-# OS = LINUX
+OS = LINUX
 #OS = MACOSX
 #OS = MACOSX_CLANG
-OS = WINDOWS
+#OS = WINDOWS
 
 ifeq ($(OS), LINUX)
 ALL = MotionCal imuread

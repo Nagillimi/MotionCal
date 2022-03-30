@@ -35,7 +35,7 @@
 #include "imuread.h"
 
 #define FXOS8700_UTPERCOUNT  0.1f
-#define DEFAULTB 50.0F				// default geomagnetic field (uT)
+#define DEFAULTB 53.4F				// default geomagnetic field (uT) => https://www.magnetic-declination.com/Canada/Guelph/335299.html
 #define X 0                         // vector components
 #define Y 1
 #define Z 2
